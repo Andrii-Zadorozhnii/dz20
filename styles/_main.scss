@@ -5,6 +5,10 @@ p{
     font: 400px 19px / 32px var.$latofont;
     letter-spacing: 0.05em;
     color: var.$standartColor;
+
+    @media screen and (max-width: 480px){
+        font-size: 16px;  
+    }
     
 }
 
@@ -35,6 +39,9 @@ main{
     font: var.$mainTitle;
     letter-spacing: 0.05em;
     margin-bottom: var.$marginBtm70;
+    @media screen and (max-width: 480px){
+        font-size: 30px;  
+    }
 }
 
 
@@ -56,6 +63,9 @@ main{
 
     &-title{
     margin-bottom: var.$marginBtm50;
+    @media screen and (max-width: 480px){
+        font-size: 26px;  
+    }
     }
 
     &-text{
