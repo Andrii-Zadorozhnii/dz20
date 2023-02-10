@@ -1,9 +1,23 @@
 @use "var";
 
+
+p{
+    font: 400px 19px / 32px var.$latofont;
+    letter-spacing: 0.05em;
+    color: var.$standartColor;
+    
+}
+
+.description-title, .section-title{
+    font: 600 28px / 47px var.$redhatfont;
+}
+
 main{
     width: 100vw;
     padding: 0px 135px 90px;
     margin: 0 auto;
+
+    font: 400 ;
 
 
     @media screen and (max-width: 820px){
