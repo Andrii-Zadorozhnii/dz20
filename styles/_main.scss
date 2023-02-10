@@ -1,0 +1,62 @@
+@use "var";
+
+main{
+    width: 100vw;
+    padding: 0px 135px 90px;
+    margin: 0 auto;
+
+
+    @media screen and (max-width: 820px){
+        padding: 0px 34px;
+    }
+    @media screen and (max-width: 480px){
+        padding: 0px 10px;
+    }
+}
+.main-section{
+    margin-bottom: var.$marginBtm90;
+}
+
+.main-title{
+    font: var.$mainTitle;
+    letter-spacing: 0.05em;
+    margin-bottom: var.$marginBtm70;
+}
+
+
+.resize-img{
+    width: 100vw;
+    border-radius: 20px;
+    margin-bottom: var.$marginBtm20;
+
+    &:hover{
+        transform: scale(1.03);
+        transition: 1s;
+    }
+}
+
+// First Screen
+
+.description{
+    margin-bottom: var.$marginBtm90;
+
+    &-title{
+    margin-bottom: var.$marginBtm50;
+    }
+
+    &-text{
+        max-width: 400px;
+    }
+}
+
+.first-screen{
+    margin-bottom: var.$marginBtm90;
+
+    & picture img{
+        margin-bottom: 90px;
+    }
+}
+
+.section-title{
+    margin-bottom: var.$marginBtm50;
+}
